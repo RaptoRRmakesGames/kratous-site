@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kratous Coin</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="navbar">
+        <nav>
+            <ul>
+                <a href="#top" class="lis">Kratous</a>
+                <a href="#htb" class="lis">How to Buy</a>
+                <a href="#community" class="lis">Community</a>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+    <div class="top" id="top" >
+        <h1 style="margin-top: 6em;" >KRATOUS COIN</h1>
+        
+        <img class="bigimage" src="image.png" alt="" >
+
+        <p>"Introducing Kratous: The Coin That Packs a Punch! Ready to join the meme coin craze? Kratous is here to shake up your wallet with a dose of humor and a whole lot of 'krat' energy! What's Kratous, you ask? It's not just any old cryptocurrency; it's your ticket to the wild world of digital finance, where every transaction is a rollercoaster of laughter and profits. Think of Kratous as the class clown of crypto—always ready with a joke and a punchline, but never lacking in strength when it comes to making gains. So why wait? Dive into the fun and let's see just how high Kratous can fly! After all, who said investing couldn't be a laughing matter?</p>
+        <a href="https://pump.fun/7J9CSe6A5MjbWKk43o2b645Gj99fY8iH9bwnbwmxgBcw" target=”_blank”>
+            <img src="https://www.pump.fun/_next/image?url=%2Flogo.png&w=32&q=75" style="width: 2000%;" alt="">
+        </a>
+
+    </div>
+
+    <div class="htb" id="htb">
+        <h1>HOW TO BUY</h1>
+
+        <div class="textbox"> <!-- start -->
+            <img src="https://cryptologos.cc/logos/solana-sol-logo.png" class="textboximg limg" alt="">
+
+            <div class="text l">
+                <h1>get some sol</h1>
+                <h2>
+                use the sol to use the sol to use the sol to use the sol to use the sol to use the sol to use the sol <br> 
+                to use the sol to use the solto use the solto use the solto use the solto use the sol
+            </h2>
+            </div>
+
+        </div> <!-- end -->
+
+        <div class="textbox"> <!-- start -->
+            
+            <div class="text">
+                <h1>get some sol</h1>
+                <h2>
+                    use the sol to use the sol to use the sol to use the sol to use the sol to use the sol to use the sol <br> 
+                    to use the sol to use the solto use the solto use the solto use the solto use the sol
+                </h2>
+            </div>
+            
+            <img src="https://cryptologos.cc/logos/solana-sol-logo.png" class="textboximg" alt="">
+        </div> <!-- end -->
+        
+        <div class="textbox"> <!-- start -->
+            <img src="https://cryptologos.cc/logos/solana-sol-logo.png" class="textboximg limg" alt="">
+            
+            <div class="text l">
+                <h1>get some sol</h1>
+                <h2>
+                    use the sol to use the sol to use the sol to use the sol to use the sol to use the sol to use the sol <br> 
+                    to use the sol to use the solto use the solto use the solto use the solto use the sol
+                </h2>
+            </div>
+            
+        </div> <!-- end -->
+
+        <div class="textbox"> <!-- start -->
+            
+            <div class="text">
+                <h1>KRATOUS COIN ADDRESS</h1>
+                
+                <div class="copy" id="copy">
+                    <input type="text" class="input" value="7J9CSe6A5MjbWKk43o2b645Gj99fY8iH9bwnbwmxgBcw" readonly>
+                    <button onclick="copyToClipboard('7J9CSe6A5MjbWKk43o2b645Gj99fY8iH9bwnbwmxgBcw')">
+                        <img style="height: 50px;" class="copyimg" src="1621635.png" alt="" >
+                    </button>
+                </div>
+                <h2 style="color: transparent;" id="hidden_clip">Copied to clipboard!</h1>
+            </div>
+            
+            <img src="https://cryptologos.cc/logos/solana-sol-logo.png" class="textboximg" alt="">
+        </div> <!-- end -->
+
+    </div>
+
+    <div class="community" id="community">
+        <h1>COMMUNITY IMAGES</h1>
+
+        <div class="com_imgs">
+
+            <img class="com_img" src="https://i.imgflip.com/76gte3.png" alt="">
+            <img class="com_img" src="https://i.imgflip.com/76gte3.png" alt="">
+            <img class="com_img" src="https://i.imgflip.com/76gte3.png" alt="">
+
+        </div>
+        
+        <div class="com_imgs">
+
+            <img class="com_img" src="https://i.imgflip.com/76gte3.png" alt="">
+            <img class="com_img" src="https://i.imgflip.com/76gte3.png" alt="">
+            <img class="com_img" src="https://i.imgflip.com/76gte3.png" alt="">
+
+        </div>
+
+        <div class="com_imgs">
+
+            <img class="com_img" src="https://i.imgflip.com/76gte3.png" alt="">
+            <img class="com_img" src="https://i.imgflip.com/76gte3.png" alt="">
+            <img class="com_img" src="https://i.imgflip.com/76gte3.png" alt="">
+
+        </div>
+
+    </div>
+
+    <script>
+        function copyToClipboard(text) {
+          // Create a temporary textarea element
+          var textarea = document.createElement("textarea");
+          var success = document.getElementById("hidden_clip");
+
+          success.style = 'display:body;'
+          textarea.value = text;
+        
+          // Make the textarea invisible
+          textarea.style.position = "fixed";
+          textarea.style.opacity = 0;
+        
+          // Append the textarea to the body
+        
+          // Select the text inside the textarea
+          textarea.select();
+        
+          // Execute the copy command
+          document.execCommand("copy");
+        
+          // Remove the textarea from the DOM
+          document.body.removeChild(textarea);
+        }
+        </script>
+        
+
+</body>
+</html>
